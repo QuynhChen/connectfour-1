@@ -1,19 +1,49 @@
 <style type="text/css">
-    html, body {
-        padding: 0;
-        margin: 0;
-        width: 800px;
-        height: 800px;
-    }
-    .grid3x3 {
-        display:table;
-        height:100%;
-        width:100%;
-    }
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    height: 800px;
+}
+.grid3x3 {
+    display:table;
+    height:100%;
+    width:100%;
+}
 
-    .grid3x3 > div > div {
-        display:table-cell;
-        width: 70px;
-        height: 70px;
-        outline: 1px solid orange;
-    }
+.grid3x3 > div > div {
+    display:table-cell;
+    width: 70px;
+    height: 70px;
+    outline: 1px solid orange;
+    outline-width: 2px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+}
+
+.grid3x3 > .row6 > .column_3 {
+    background-color: black;
+}
+
+.grid3x3 > .row5 > .column_4 {
+    background-color: black;
+}
+
+.grid3x3 > .row4 > .column_5 {
+    background-color: black;
+}
+
+.grid3x3 > .row3 > .column_6 {
+    background-color: black;
+}
+
+.grid3x3 > .row6 > .column_5 {
+    background-color: black;
+}
+
+.grid3x3 > .row5 > .column_6 {
+    background-color: black;
+}
