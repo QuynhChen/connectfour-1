@@ -6,7 +6,7 @@
  * Build a fully functional, JavaScript-heavy web application from scratch
  * Use agile development techniques
 
-## Summary
+## Summary!
 
 Good news: you know JavaScript! Or at least you think you do. For this challenge, you're going to be writing a large, JavaScript-heavy codebase. You'll need to keep it organized and readable and tested. And you'll be doing it in teams, using the Agile development process.
 
