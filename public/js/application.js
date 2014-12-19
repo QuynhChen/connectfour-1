@@ -17,3 +17,8 @@ $('.button_row .column_1').click(function(){
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
 });
 
+
+Game = {
+  board: [[null,null,null,null,null,null,null,],[],[],[],[],[],[]]
+
+}

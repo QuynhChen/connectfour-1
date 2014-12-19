@@ -1,3 +1,10 @@
+body {
+  max-width: 800px;
+  min-width:  800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
 .column {
  display:inline-block;
 }
@@ -13,6 +20,7 @@
     height:420px;
     width:490px;
     background-color: yellow;
+
 }
 
 .player1 {
@@ -23,14 +31,26 @@
   background-color: blue;
 }
 
-#button {
-  height:70px;
-  width: 70px;
+.button_row {
+  /*display: table;*/
+  background-color: black;
 }
 
-.button_row #button {
+/*#button {
+  height:70px;
+  width: 70px;
+  display: inline-block;
+  background-color: purple;
+}*/
+
+.button_row #button{
+
+height:70px;
+  width: 70px;
+  /*display: block;
+  display: inline-block;*/
+  /*display: inline;*/
+  display: table-column-group;
+  background-color: purple;
   float: left;
-/*  margin: 1px;
-  border:1px solid blue;
 }
-*/
