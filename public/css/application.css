@@ -1,53 +1,27 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    height:420px;
-    width:490px;
-    margin: 0 auto;
-    margin-top: 10px;
+.column {
+ display:inline-block;
 }
-.grid3x3 {
+
+.column div {
+  height:68px;
+  width: 68px;
+  border: 1px solid black;
+}
+
+.grid6x7 {
     display:table;
     height:420px;
     width:490px;
     background-color: yellow;
 }
 
-.grid3x3 > div > div {
-    display:table-cell;
-    width: 70px;
-    height: 70px;
-    outline-width: 2px;
-    border-radius: 35px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: white;
+.player1 {
+  background-color: red;
 }
 
-.grid3x3 > .row6 > .column_3 {
-    background-color: black;
-}
-
-.grid3x3 > .row5 > .column_4 {
-    background-color: black;
-}
-
-.grid3x3 > .row4 > .column_5 {
-    background-color: black;
-}
-
-.grid3x3 > .row3 > .column_6 {
-    background-color: black;
-}
-
-.grid3x3 > .row6 > .column_5 {
-    background-color: black;
-}
-
-.grid3x3 > .row5 > .column_6 {
-    background-color: black;
-}
+.player2 {
+  background-color: blue;
+}*/
 
 #button {
   height:70px;
@@ -57,5 +31,6 @@ html, body {
 .button_row #button {
   float: left;
 /*  margin: 1px;
-*/  border:1px solid blue;
+  border:1px solid blue;
 }
+*/
