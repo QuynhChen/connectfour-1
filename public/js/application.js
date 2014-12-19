@@ -6,17 +6,13 @@ $(document).ready(function() {
 var player1 = document.querySelector(".player1")
 var player2 = document.querySelector(".player2")
 
-$('.button_row #button').click(function(){
-    // var buttonColumn = $(this).attr("class")
+// $('.button_row #button').click(function(){
+
+//   })
 
 
-    player1.nextElementSibling.classList.add("player1");
-
-
-    // player2.nextElementSibling.classList.add("player2");
-
-
-
+$('.button_row .column_1').click(function(){
+  $('.column#1 :last-child').addClass('player1');
   })
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
 });
