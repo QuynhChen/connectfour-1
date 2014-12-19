@@ -3,22 +3,44 @@ $(document).ready(function() {
   // This guarantees that any elements we bind to will exist on the page
   // when we try to bind to them
 
-var player1 = document.querySelector(".player1")
-var player2 = document.querySelector(".player2")
+$('.button_row #button').click(function(){
+  var col = this.attr("class")
 
-// $('.button_row #button').click(function(){
+  piece = Game.addPiece({col: col})
+  // this.innerHTML = piece
 
-//   })
-
-
-$('.button_row .column_1').click(function(){
-  $('.column#1 :last-child').addClass('player1');
-  })
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
 });
 
 
+Game.board[0][0]
+Game.board[1][0]
+
+// MODEL LOGIC
+
 Game = {
-  board: [[null,null,null,null,null,null,null,],[],[],[],[],[],[]]
+
+  board: [
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,]
+  ]
+
+  currentTurn: "Red"
+
+  addPiece: function() {
+    var col = obj.col
+
+    for (i=0;i<board.length;i++)
+      if (Game.board[i][col] === null) {
+        //put piece
+        Game.board[i][col] = "X";
+      }
+
+  }
+
+
 
 }
